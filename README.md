@@ -1,6 +1,10 @@
 # Overview
 
-Manchester City Coucil don't currnetly offer an API for querying bin collection dates. They *do* have a timetable querying service, for which I've made use of @maxhumber's [gazpacho](https://github.com/maxhumber/gazpacho) to scrape data from MCC.
+Manchester City Council don't currently offer an publicly available API for querying bin collection dates. They *do* have an undocumented API, which I've made use wrapped around here so I can add functionality to filter by bin type, next date etc.
+
+## History
+
+I previously committed (about 15 minutes before this one) a script that would scrape the HTML of the public facing page, before I realised that the API itself was hidden away in the PDF generator for a full time table.
 
 ## Usage
 
